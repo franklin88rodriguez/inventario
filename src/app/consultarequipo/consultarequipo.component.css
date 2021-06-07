@@ -1,0 +1,105 @@
+.container {
+    /* background-color: white;
+    margin-top: 70px;
+    display: flex;
+    margin-left: 50px;    /* margin-left: 55px; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap;
+    height: 100%;  */
+    /* width: 100%; */
+    height: calc(100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+form {
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+    color: rgb(95, 95, 95);
+    margin-bottom: 25px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 0em 5em 0em 1.5em;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-box-shadow: 7px 7px 12px 5px rgba(0, 0, 0, 0.42);
+    box-shadow: 7px 7px 12px 5px rgba(0, 0, 0, 0.42);
+}
+
+h2 {
+    position: relative;
+    color: rgb(95, 95, 95);
+    margin-bottom: -3px;
+    font-size: 17px;
+    right: -15px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-box-shadow: 7px 7px 12px 5px rgba(0, 0, 0, 0.42);
+    box-shadow: 7px 7px 12px 5px rgba(0, 0, 0, 0.42);
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
+
+button.botonRegistrar {
+    text-decoration: none;
+    top: 50px;
+    right: 20px;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 27px;
+    border: none;
+    font-size: 20px;
+    -webkit-box-shadow: 7px 7px 12px 5px rgba(0, 0, 0, 0.42);
+    box-shadow: 7px 7px 12px 5px rgba(0, 0, 0, 0.42);
+}
+
+.botonRegistrar {
+    background-color: rgb(58, 63, 114);
+}
+
+.btn:hover {
+    background-color: rgb(197, 40, 40);
+    transition: 0.5s;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    
+    height: 10%;
+}
+
+h3 {
+    position: relative;
+    color: rgb(95, 95, 95);
+    margin-bottom: 2px;
+    font-size: 25px;
+    border: none;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+    text-shadow: 3px 5px 2px #47474748;
+}

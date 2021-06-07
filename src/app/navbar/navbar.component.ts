@@ -1,18 +1,16 @@
-import { Component, NgModule, OnInit } from '@angular/core';
-import { MatSliderModule } from '@angular/material/slider';
+import { Component, Input, OnInit } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
-
-// @NgModule({
-//   imports: [MatSliderModule]
-// })
-
 export class NavbarComponent implements OnInit {
-
+  @Input('texto') texto = '';
+  @Input('backButton') backButton = false;
+  @Input('exitButton') exitButton = false;
   constructor() { }
 
   ngOnInit(): void {

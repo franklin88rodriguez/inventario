@@ -1,0 +1,63 @@
+.container {
+    margin-top: 0px;
+    height: calc(50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    padding-bottom: -90px;
+}
+
+.container2 {
+    margin-top: -120px;
+    height: calc(10%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 19px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-box-shadow: 5px 11px 15px 7px rgba(0, 0, 0, 0.22);
+    box-shadow: 5px 11px 15px 7px rgba(0, 0, 0, 0.22);
+}
+
+form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+button.botonRegistrar {
+    text-decoration: none;
+    top: 0px;
+    right: 20px;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 27px;
+    border: none;
+    font-size: 15px;
+
+    -webkit-box-shadow: 5px 11px 15px 7px rgba(0, 0, 0, 0.22);
+    box-shadow: 5px 11px 15px 7px rgba(0, 0, 0, 0.22);
+}
+
+.botonRegistrar {
+    background-color: rgb(58, 63, 114);
+}
+
+.btn:hover {
+    background-color: rgb(197, 40, 40);
+    transition: 0.5s;
+}
